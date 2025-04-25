@@ -92,7 +92,7 @@ Training Progress
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/pytorch-classification.git
+git clone https://github.com/doniarish/NEURAL-NETWORK-CLASSIFIER-.git
 cd pytorch-classification
 Create virtual environment (recommended):
 
@@ -148,7 +148,7 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ✉️ Contact
 Your Name - doniarish1@gmail.com
-Project Link: https://github.com/doniarish/NEURAL-NETWORK-CLASSIFIER
+Project Link: https://github.com/doniarish/NEURAL-NETWORK-CLASSIFIER-
 
 
 ---
