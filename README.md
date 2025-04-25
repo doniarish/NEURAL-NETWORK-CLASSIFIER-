@@ -147,8 +147,8 @@ Open a Pull Request
 Distributed under the MIT License. See LICENSE for more information.
 
 ✉️ Contact
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/pytorch-classification
+Your Name - doniarish1.com
+Project Link: [https://github.com/yourusername/pytorch-classification](https://github.com/doniarish/NEURAL-NETWORK-CLASSIFIER-/blob/main/2_pytorch_classification__00.ipynb)
 
 
 ---
