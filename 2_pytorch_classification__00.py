@@ -625,3 +625,25 @@ from torchmetrics import Accuracy
 torchmetrics_accuracy=Accuracy(task="multiclass",num_classes=10).to(device)
 torchmetrics_accuracy(y_preds,y_blob_test)
 
+# ==============================
+# Structured Pruning
+# ==============================
+
+import torch.nn.utils.prune as prune
+
+# Prune 25% of neurons from the second Linear layer
+prune.ln_structured(
+    model_4.liner_layer_stack[1],
+    name="weight",
+    amount=0.25,
+    n=2,
+    dim=0
+)
+
+# Make pruning permanent
+prune.remove(
+    model_4.liner_layer_stack[1],
+    "weight"
+)
+
+print("Structured pruning completed!")
